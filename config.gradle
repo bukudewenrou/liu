@@ -1,0 +1,11 @@
+ext {
+    android = [
+            applicationId       :"com.zcitc.cloudhousehelper",
+            compileSdkVersion   :30,
+            targetSdkVersion    :30,
+            minSdkVersion       :21,
+            versionCode         :2147,
+            versionName         :"2.1.4.7",
+            versionAddress   : "\"本地\""//本地,正式
+    ]
+}

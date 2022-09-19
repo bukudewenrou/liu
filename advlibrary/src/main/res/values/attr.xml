@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientTextView">
+        <attr name="gradient_startColor" format="reference|color" />
+        <attr name="gradient_endColor" format="reference|color" />
+        <attr name="gradient_direction" format="enum">
+            <enum name="leftToRight" value="1" />
+            <enum name="topToBottom" value="2" />
+        </attr>
+        <attr name="gradient_animate" format="boolean" />
+        <attr name="gradient_speed" format="enum">
+            <enum name="slow" value="20" />
+            <enum name="normal" value="10" />
+            <enum name="fast" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="NoScrollWrapContentViewPager">
+        <attr name="scrollEnabled" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VerticalBannerView">
+        <attr name="gap" format="integer" />
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="IDCardRegionMaskView">
+        <attr name="region_width" format="dimension" />
+        <attr name="region_height" format="dimension" />
+        <attr name="angle_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="corners" format="dimension" />
+    </declare-styleable>
+    <!-- xy坐标轴颜色 -->
+    <attr name="xylinecolor" format="color" />
+    <!-- xy坐标轴宽度 -->
+    <attr name="xylinewidth" format="dimension" />
+    <!-- xy坐标轴文字颜色 -->
+    <attr name="xytextcolor" format="color" />
+    <!-- xy坐标轴文字大小 -->
+    <attr name="xytextsize" format="dimension" />
+    <!-- 折线图中折线的颜色 -->
+    <attr name="linecolor" format="color" />
+    <!-- x轴各个坐标点水平间距 -->
+    <attr name="interval" format="dimension" />
+    <!-- 背景颜色 -->
+    <attr name="bgcolor" format="color" />
+    <!--是否在ACTION_UP时，根据速度进行自滑动，建议关闭，过于占用GPU-->
+    <attr name="isScroll" format="boolean" />
+    <declare-styleable name="chartView">
+        <attr name="xylinecolor" />
+        <attr name="xylinewidth" />
+        <attr name="xytextcolor" />
+        <attr name="xytextsize" />
+        <attr name="linecolor" />
+        <attr name="interval" />
+        <attr name="bgcolor" />
+        <attr name="isScroll" />
+    </declare-styleable>
+    
+    <declare-styleable name="HorizontalTextView">
+        <attr name="icon" format="reference" />
+        <attr name="label" format="string" />
+        <attr name="label_text_size" format="float" />
+        <attr name="label_text_color" format="color" />
+        <attr name="arrow_icon" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AutoScrollTextView">
+        <attr format="color" name="mhPrimaryColor"/>
+
+    </declare-styleable>
+    <declare-styleable name="ScrollFloatinigButton">
+        <attr name="scrollEnable" format="boolean" />
+    </declare-styleable>
+</resources>

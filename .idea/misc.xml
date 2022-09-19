@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/drawable/alertdialog_right_selector.xml" value="0.1745" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/drawable/alertdialog_single_selector.xml" value="0.1745" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/drawable/bg_d4b064_f1d08e_10.xml" value="0.1745" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/drawable/ic_adv_close.xml" value="0.11" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/drawable/tg_bg.xml" value="0.168" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/activity_web_page.xml" value="0.18885869565217392" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/dialog_adv.xml" value="0.259963768115942" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/fragment_home_recommend.xml" value="0.21920289855072464" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_adv_layout.xml" value="0.18840579710144928" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_adv_news.xml" value="0.18802083333333333" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_adv_recommend.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_countdown_adv.xml" value="0.2006340579710145" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_empty_layout3.xml" value="0.20416666666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_house.xml" value="0.22" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_recommend.xml" value="0.21920289855072464" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_recommend2.xml" value="0.21920289855072464" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_recommend3.xml" value="0.20416666666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_recommend_plate.xml" value="0.18802083333333333" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/item_splash_adv.xml" value="0.20833333333333334" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/mybanner.xml" value="0.18802083333333333" />
+        <entry key="..\:/house/Zcitc.CloudHouse/advlibrary/src/main/res/layout/view_alertdialog.xml" value="0.22135416666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/drawable/bg_20000000_20.xml" value="0.1395" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/activity_adv.xml" value="0.20833333333333334" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/activity_live_ecommerce.xml" value="0.131592164741336" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/activity_splash.xml" value="0.20833333333333334" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/activity_web_page.xml" value="0.12228260869565218" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/fragment_home_main.xml" value="0.10622802611752888" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/ilr_view_live_info.xml" value="0.25" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/include_new_title_web.xml" value="0.12228260869565218" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/item_adv_layout.xml" value="0.13385416666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/item_adv_news.xml" value="0.13385416666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/item_adv_recommend.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/item_recommend_tab.xml" value="0.17447916666666666" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/layout_house_panel.xml" value="0.18840579710144928" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/live_house_view.xml" value="0.10095429432446007" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/live_notice_view.xml" value="0.19947916666666668" />
+        <entry key="..\:/house/Zcitc.CloudHouse/app/src/main/res/layout/utils_toast_view.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/drawable/bg_toolbar_search.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/drawable/bg_toolbar_search_f5f5f5.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/drawable/bg_toolbar_search_fff.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/drawable/ic_search_b1b1b1_24dp.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/layout/activity_web_page.xml" value="0.1" />
+        <entry key="..\:/house/Zcitc.CloudHouse/webviewlib/src/main/res/layout/include_new_title_web.xml" value="0.12228260869565218" />
+      </map>
+    </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

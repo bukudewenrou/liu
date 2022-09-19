@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recommendLl"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/bg_fffaf0_7"
+        android:orientation="vertical"
+      >
+
+        <net.lucode.hackware.magicindicator.MagicIndicator
+            android:id="@+id/recommendMagicIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="5dp" />
+
+
+        <com.zcitc.advertisement.widget.MyViewPager
+            android:id="@+id/recommendVp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
+
+    </LinearLayout>

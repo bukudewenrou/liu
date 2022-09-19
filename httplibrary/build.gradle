@@ -1,0 +1,99 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+apply plugin: 'maven'
+android {
+    compileSdkVersion 30
+    buildFeatures {
+        viewBinding true
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+//
+
+    //okgo
+    api 'com.lzy.net:okgo:3.0.4'
+    api 'com.google.code.gson:gson:2.9.0'
+    api 'com.alibaba:fastjson:1.1.72.android'
+
+//    // 网络请求框架：https://github.com/getActivity/EasyHttp
+//    implementation 'com.github.getActivity:EasyHttp:11.2'
+//    // OkHttp 框架：https://github.com/square/okhttp
+//    // noinspection GradleDependency
+//    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+
+}
+//uploadArchives {
+//
+//    configuration = configurations.archives
+//
+//    repositories {
+//
+//        mavenDeployer {
+//
+//            repository(url: uri('../repository'))
+//
+//            pom.project {
+//
+//                version '1.0.0'
+//
+//                artifactId 'httplibrary'
+//
+//                groupId 'com.zcitc.httplibrary'
+//
+//                packaging 'aar'
+//
+//                description '网络请求类'
+//
+//            }
+//
+//        }
+//
+//    }
+//
+//}
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: 'https://packages.aliyun.com/maven/repository/2278626-release-x4Kfvq/') {
+//                authentication(
+//                        userName: '63241915b0a284bfe736cfd0',
+//                        password: 'RYV7iFRNrnJN'
+//                )
+//            }
+//            snapshotRepository(url: 'https://packages.aliyun.com/maven/repository/2278626-snapshot-1Pkd3M/') {
+//                authentication(
+//                        userName: '63241915b0a284bfe736cfd0',
+//                        password: 'RYV7iFRNrnJN'
+//                )
+//            }
+//            pom.version = '1.0.0'
+//            pom.artifactId = 'httplibrary'
+//            pom.groupId = 'com.zcitc.httplibrary'
+//        }
+//    }
+//}

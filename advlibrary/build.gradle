@@ -1,0 +1,122 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+apply plugin: 'maven'
+android {
+    compileSdkVersion 30
+    buildFeatures {
+        viewBinding true
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+//    api fileTree(dir: 'libs', include: ['*.aar'])
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    api 'androidx.recyclerview:recyclerview:1.2.1'
+    api 'androidx.cardview:cardview:1.0.0'
+
+
+
+    //youth banner
+    api 'com.youth.banner:banner:1.4.10'
+
+//    api 'com.zcitc.baselibrary:baselibrary:1.0.0'
+//    api 'com.zcitc.utilslibrary:utilslibrary:1.0.0'
+//    api 'com.zcitc.httplibrary:httplibrary:1.0.0'
+//    api 'com.zcitc.glidelibrary:glidelibrary:1.0.0'
+
+
+    implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
+
+    api project(path: ':httplibrary')
+    api project(path: ':baselibrary')
+    api project(path: ':utilslibrary')
+    api project(path: ':glidelibrary')
+
+}
+//uploadArchives {
+//
+//    configuration = configurations.archives
+//
+//    repositories {
+//
+//        mavenDeployer {
+//
+//            repository(url: uri('../repository'))
+//
+//            pom.project {
+//
+//                version '1.0.1'
+//
+//                artifactId 'advlibrary'
+//
+//                groupId 'com.zcitc.advertisement'
+//
+//                packaging 'aar'
+//
+//                description '广告类'
+//
+//            }
+//
+//        }
+//
+//    }
+//
+//}
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: 'https://packages.aliyun.com/maven/repository/2278626-release-x4Kfvq/') {
+//                authentication(
+//                        userName: '63241915b0a284bfe736cfd0',
+//                        password: 'RYV7iFRNrnJN'
+//                )
+//            }
+//            snapshotRepository(url: 'https://packages.aliyun.com/maven/repository/2278626-snapshot-1Pkd3M/') {
+//                authentication(
+//                        userName: '63241915b0a284bfe736cfd0',
+//                        password: 'RYV7iFRNrnJN'
+//                )
+//            }
+//            pom.version = '1.0.0'
+//            pom.artifactId = 'advlibrary'
+//            pom.groupId = 'com.zcitc.advertisement'
+//        }
+//    }
+//}
